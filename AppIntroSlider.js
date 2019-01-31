@@ -254,7 +254,7 @@ export default class AppIntroSlider extends React.Component {
           style={styles.flatList}
           renderItem={this._renderItem}
           onMomentumScrollEnd={this._onMomentumScrollEnd}
-          extraData={this.state.width}
+          extraData={this.state}
           onLayout={this._onLayout}
           {...otherProps}
         />
